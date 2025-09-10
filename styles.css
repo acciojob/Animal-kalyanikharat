@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f6f6f6;
+      padding: 20px;
+      text-align: center;
+    }
+
+    #animal-photos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    img {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ccc;
+    }
+
+    #photo-heading {
+      font-size: 2rem;
+      color: #333;
+    }
